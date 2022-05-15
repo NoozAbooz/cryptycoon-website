@@ -1,0 +1,156 @@
+:root {
+    --purple1: #d0e1f9;
+    --purple2: #4d648d;
+    --purple3: #283655;
+    --purple4: #1e1f26;
+  }
+  body {
+    background-color: var(--purple4);
+}
+
+.body_head {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--purple1);
+    float:left;
+    padding-left: 15rem;
+    margin-top: -3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-shadow: 1px 4px 5px rgb(3, 136, 107);
+}
+
+.abt {
+    color:var(--purple1);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16.5rem;
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+}
+
+.crypto_pic1 {
+    display: block;
+    position: absolute;
+    top:47%;
+    left: 15%;
+    width: 200px;
+    height: 205px;
+    margin: -60px 0 0 -60px;
+    filter: drop-shadow(0px 2px 10px white);
+}
+
+.crypto_pic1{
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.crypto_pic2 {
+    display: block;
+    position: absolute;
+    top:47%;
+    left: 80%;
+    width: 203px;
+    height: 210px;
+    margin: -60px 0 0 -60px;
+    filter: drop-shadow(0px 2px 10px blue);
+}
+
+.crypto_pic2{
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.crypto_pic3 {
+    display: block;
+    position: absolute;
+    top:47%;
+    left: 47%;
+    width: 200px;
+    height: 200px;
+    margin: -60px 0 0 -60px;
+    filter: drop-shadow(0px 2px 5px goldenrod );
+}
+
+.crypto_pic3:hover{
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+.btn1 {
+    background: var(--purple2);
+    top: 75%;
+    left: 27%;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--purple1);
+    text-align: center;
+    padding: 15px;
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    height: 70px;
+    font-size: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: boxshadow, transform;
+    font-family: 'Righteous', cursive;
+}
+
+.btn2 {
+    background: var(--purple2);
+    top: 75%;
+    left: 54%;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin-right: -10rem;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--purple1);
+    text-align: center;
+    padding: 15px;
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    height: 70px;
+    font-size: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: boxshadow, transform;
+    font-family: 'Righteous', cursive;
+}
+
+.btn1:hover, .btn1:focus, .btn1:active, .btn2:hover, .btn2:focus, .btn2:active{
+    box-shadow: 0 0 10px rgba(15, 14, 1, 0.9);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color:#283655;
+    background-color: #d0e1f9;
+}

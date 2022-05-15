@@ -1,0 +1,30 @@
+:root {
+        --purple1: #d0e1f9;
+        --purple2: #4d648d;
+        --purple3: #283655;
+        --purple4: #1e1f26;
+      }
+
+.arrow { top:50%;margin:-67px 0 -67px;left: 5%}
+a:nth-child(2) { left:90% }
+
+.arrow {
+    position: absolute;
+    padding: 3rem; /* Arrow size */
+            box-shadow: 1px -1px 0 1px #d0e1f9;
+    -webkit-box-shadow: 2px -2px #d0e1f9;
+    border: solid transparent;
+    border-width: 0 0 2rem 2rem;
+    transition: 0.2s;
+  }
+  
+  .arrow:hover {
+            box-shadow: 2px -2px 0 2px #4d648d;
+    -webkit-box-shadow: 8px -8px #4d648d;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding: 3.5rem;
+  }
+  
+
+  .arrow-right { transform:rotate(225deg) }

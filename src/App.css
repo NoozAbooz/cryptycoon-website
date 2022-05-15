@@ -1,0 +1,24 @@
+:root {
+  --purple1: #d0e1f9;
+  --purple2: #4d648d;
+  --purple3: #283655;
+  --purple4: #1e1f26;
+}
+
+header {
+  background-color: var(--purple4);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-right: 5rem;
+}
+
+html {
+
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: auto;
+  overflow-y: scroll;
+}

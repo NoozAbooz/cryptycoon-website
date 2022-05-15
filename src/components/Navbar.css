@@ -1,0 +1,28 @@
+:root {
+  --purple1: #d0e1f9;
+  --purple2: #4d648d;
+  --purple3: #283655;
+  --purple4: #1e1f26;
+}
+header .navbar a {
+    font-size: 2.1rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    color: var(--purple2);
+    text-decoration: none;
+    border-spacing: 200px;
+    border-collapse: separate;
+  }
+  
+  header .navbar {
+    float: right;
+  }
+  
+  header .navbar a.active,
+  header .navbar a:hover {
+    background: var(--purple2);
+    color: var(--purple4);
+  }
+
+  
